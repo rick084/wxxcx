@@ -1,0 +1,7 @@
+<view class="container">
+<text>input:</text>
+<input type="number" bindinput="inp" placeholder="请输入一个数字"></input>
+<button bindtap="jud" type="primary">判断</button>
+<text class="te">{{ans}}</text>
+<button bindtap="jump" type="primary">返回</button>
+</view>
